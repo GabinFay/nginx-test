@@ -41,8 +41,10 @@
         let count = 0;
 
         incrementBtn.addEventListener('click', () => {
+            console.log('Counter before increment:', count);
             count++;
             counter.textContent = count;
+            console.log('Counter after increment:', count);
         });
     </script>
 </body>
